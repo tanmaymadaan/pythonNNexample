@@ -8,15 +8,15 @@ def nonlin(x,deriv=False):
 
 #input data
 x = numpy.array([[0,0,1],
-			  [0,1,1],
-			  [1,0,1],
-			  [1,1,1]])
+		 [0,1,1],
+		 [1,0,1],
+		 [1,1,1]])
 
 #output data
 y = numpy.array([[0],
-			  [1],
-			  [1],
-			  [0]])
+		 [1],
+		 [1],
+		 [0]])
 
 numpy.random.seed(1)
 
